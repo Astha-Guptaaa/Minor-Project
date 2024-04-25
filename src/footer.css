@@ -1,0 +1,119 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.footer
+{   border-top: 1px solid #010f1c;
+    padding: 30px 40px;
+    width: 100%;
+    background:#f9d9dd;
+}
+.footer .container
+{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .container .about
+{
+    max-width: 30%;
+
+}
+.footer .container .about .logo
+{
+    padding-left: 20px;
+}
+.footer .container .about .detail p
+{
+ margin-left: 20px;
+ margin-top: 20px;
+ font-size: 16px;
+}
+.footer .container .about .detail .icon
+{
+    margin-top: 20px;
+    display: flex;
+   
+}
+.footer .container .about .detail .icon li
+{
+ margin-left: 20px;
+ list-style: none;
+ padding: 10px 10px;
+ box-shadow: rgba(0,0,0, 0.15) 1.95px 1.95px 2.6px;
+ cursor: pointer;
+ transition: 0.5s;
+ background-color: #fff;
+}
+.footer .container .about .detail .icon li:hover
+{
+    background: #e9919a;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.footer .container .account
+{   margin-left: 100px;
+    margin-right: 70px;
+    margin-top: 100px;
+    margin-top: 30px;
+}
+.footer .container .account h3
+{
+font-size:32px;
+color:#010f1c;
+}
+.footer .container .account ul
+{
+    margin:10px;
+    margin-left: 10px;
+    list-style: none;
+}
+.footer .container .account ul li
+{
+    margin-top: 5px;
+    color:#010f1c;
+    font-size: 14px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.footer .container .account ul li:hover 
+{
+    color:#c76770;
+}
+
+.footer .container .page
+{   margin-right: 70px;
+    margin-top: 100px;
+    margin-top: 30px;
+    margin-left: 60px;
+   
+}
+.footer .container .page h3
+{
+font-size:32px;
+color:#010f1c;
+}
+.footer .container .page ul
+{
+    margin:10px;
+    margin-left: 10px;
+    list-style: none;
+}
+.footer .container .page ul li
+{
+    margin-top: 5px;
+    color:#010f1c;
+    font-size: 14px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.footer .container .page ul li:hover 
+{
+    color:#c76770;
+}
+

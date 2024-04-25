@@ -1,0 +1,149 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.cartcontainer
+{
+    padding: 40px 50px;
+    width: 100%;
+    background:#f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+}
+.cartcontainer .emptycart
+{
+    margin-top: 30px;
+    margin-left: 40%;
+}
+.cartcontainer .emptycart h2
+{
+    font-size: 32px;
+    color:#010f1c;
+    text-transform: uppercase;
+    font-weight:300;
+    margin-bottom: 30px;
+}
+.cartcontainer .emptycart .emptycartbtn
+{
+    margin-left: 75px;
+    text-decoration: none;
+    color: #010f1c;
+    padding: 10px 20px;
+    background: #e9919a;
+    border-radius: 10px;
+}
+.cartcontainer .contant
+{
+    max-width: 100%;
+    padding: 20px 30px;
+}
+.cartcontainer .contant .cart_item
+{
+    padding: 20px 30px;
+    display: flex;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cartcontainer .contant .cart_item .img_box
+{
+    padding: 20px 20px;
+   /* didn't add Background 3hr:5min:26sec */
+}
+.cartcontainer .contant .cart_item .img_box img
+{
+   width:200px;
+   height: 200px;
+}
+.cartcontainer .contant .cart_item .detail
+{
+    margin-left: 50px;
+    display: flex;
+    margin-top: 30px;
+    padding: 20px 30px;
+}
+.cartcontainer .contant .cart_item .detail .info h4
+{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #9a9a9a;
+    font-weight: 100;
+    letter-spacing: 1.2px;
+}
+.cartcontainer .contant .cart_item .detail .info h3
+{
+    margin-top: 20px;
+    color: #c94c58;
+    font-size: 22px;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+.cartcontainer .contant .cart_item .detail .info p
+{
+    margin-top: 10px;
+    color: #010f1c;
+    letter-spacing: 1px;
+}
+.cartcontainer .contant .cart_item .detail .close
+{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.cartcontainer .contant .cart_item .detail .close button
+{
+    border: none;
+    outline: none;
+    font-size: 22px;
+    color:  #181515;
+    background: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.cartcontainer .contant .cart_item .detail .close button:hover
+{   
+    color:  #f8f5f5;
+    background: #ed3447;
+    font-size: 22px;
+    border-radius: 3px;
+}
+.cartcontainer .totalprice
+{
+    margin-top: 30px;
+    margin-left: 40%;
+    font-size: 22px;
+  letter-spacing: 1px;
+}
+.cartcontainer .checkout
+{
+    margin-top: 40px;
+    margin-left: 43%;
+    padding: 10px 20px;
+    color:#010f1c;
+    border: none;
+    outline: none;
+    background: #e9919a;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.contant .cart_item .detail .info button
+{
+    margin-top: 20px;
+    padding: 15px 20px;
+    font-size: 16px;
+    color:#fff;
+    background:#010f1c;
+    transition: 0.5s;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  
+}
+.contant .cart_item .detail .info button:hover
+{
+    background:#e9919a;
+   color: #010f1c;
+
+}
